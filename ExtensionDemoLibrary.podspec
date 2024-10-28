@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "motasem-91" => "m.hamed@quant.sa" }
 
   spec.source       = { :git => "https://github.com/motasem-91/ExtensionDemoLibrary.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Sources/UserPilot/**/*.swift"
 
   spec.swift_version = "5.0"
   spec.ios.deployment_target = "15.0"
