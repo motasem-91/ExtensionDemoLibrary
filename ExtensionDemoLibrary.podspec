@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ExtensionDemoLibrary"
   spec.module_name  = "ExtensionDemoLibrary"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "ExtensionDemoLibrary to add extensions"
 
   spec.description  = <<-DESC
