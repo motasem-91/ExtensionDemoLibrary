@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "ExtensionDemoLibrary",
-            targets: ["ExtensionDemoLibrary"]),
+            targets: ["ExtensionDemoLibrary"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,6 +21,6 @@ let package = Package(
             name: "ExtensionDemoLibrary"),
         .testTarget(
             name: "ExtensionDemoLibraryTests",
-            dependencies: ["ExtensionDemoLibrary"]),
+            dependencies: ["ExtensionDemoLibrary"])
     ]
 )
