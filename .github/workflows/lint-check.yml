@@ -1,0 +1,13 @@
+name:SwiftLint
+
+on:
+  workflow_dispatch: # Allows the workflow to be triggered manually
+
+jobs:
+  SwiftLint:
+    runs-on: ghcr.io/cirruslabs/macos-runner:sonoma
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cirruslabs/swiftlint-action@v1
+        with:
+          version: latest
