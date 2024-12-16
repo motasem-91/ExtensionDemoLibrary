@@ -1,7 +1,9 @@
 name: SwiftLint
 
 on:
-  workflow_dispatch: # Allows the workflow to be triggered manually
+  # Run the workflow on each pull request and allow manual triggering
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   SwiftLint:
