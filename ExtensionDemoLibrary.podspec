@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ExtensionDemoLibrary"
   spec.module_name  = "ExtensionDemoLibrary"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "ExtensionDemoLibrary to add extensions"
 
   spec.description  = <<-DESC
@@ -20,3 +20,4 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "15.0"
 
 end
+ 
