@@ -1,7 +1,9 @@
 name: SwiftLint
 
 on:
-  workflow_dispatch: # Allows the workflow to be triggered manually
+  # Run the workflow on each push and allow manual triggering
+  push:
+  workflow_dispatch:
 
 jobs:
   SwiftLint:
